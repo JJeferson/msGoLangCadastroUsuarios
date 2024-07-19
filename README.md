@@ -1,9 +1,10 @@
 # msGoLangCadastroUsuarios
-## MVP de Microserviço.
+## Teste de Microserviço.
+
 <b>
 Cadastro de usuarios num banco dynamo. </br>
 Testavel com LocalStack </br>
-Integração com SQS. </br>
+Integração com SQS e Dynamo. </br>
 Acionamento por httpRest Post. </br>
 </b>
 <b>
@@ -49,7 +50,7 @@ go get github.com/aws/aws-sdk-go
 go get github.com/gorilla/mux
 go run main.go
 ```
-Usando um collection produza para o endpoint localhost:3030/produzir
+Usando um collection produza para o endpoint localhost:3030/produzir [Post]
 
 Para verificar se deu certo no gitbash rode o comando:
 ```
